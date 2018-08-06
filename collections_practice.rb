@@ -40,6 +40,7 @@ def kesha_maker(array)
   array.each do |element|
     binding.pry
     kesha_array.push(element)
-  
-  
+  end
 end  
+
+array = ["hey", "whats", "up"]
