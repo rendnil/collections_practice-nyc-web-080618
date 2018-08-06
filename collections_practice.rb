@@ -50,3 +50,4 @@ def find_a(array)
   end    
 end  
   
+array = 
