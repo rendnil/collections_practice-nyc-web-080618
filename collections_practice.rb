@@ -38,16 +38,16 @@ def kesha_maker(array)
   kesha_array = [ ]
   
   array.each do |element|
-   
+   kesha_element = []
    element.split("").each do |letter|
-     kesha_element = []
+     
      if element.split("").index(letter)==2
        kesha_element.push("$")
     else
       kesha_element.push(letter)
     end  
        
-    binding.pry
+    #binding.pry
     kesha_array.push(kesha_element.join())
   end
 end
