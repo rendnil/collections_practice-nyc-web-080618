@@ -52,7 +52,7 @@ def find_a(array)
 end  
 
 def sum_array(array)
-  array_sum = nil
+  array_sum = 0
   array.each do |number|
     array_sum = array_sum + number
   end  
