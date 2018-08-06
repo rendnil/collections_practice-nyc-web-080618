@@ -58,6 +58,20 @@ def sum_array(array)
   end  
 array_sum 
 end
+
+def add_s(array)
+  
+  array.each_with_index.collect do |word, index|
+    if index == 1
+      word
+    else
+      word = word << "s"
+    end
+    
+  end  
+  
+
+end  
   
 
 array = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
