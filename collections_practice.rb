@@ -56,7 +56,7 @@ def sum_array(array)
   array.each do |number|
     array_sum = array_sum + number
   end  
-array_sun  
+array_sum 
 end
   
 
