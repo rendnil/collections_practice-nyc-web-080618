@@ -8,3 +8,8 @@ def sort_array_desc(array)
   array.sort.reverse
   
 end  
+
+def sort_aray_char_count(array)
+  array.sort_by do |word, word.length|
+end
+end
