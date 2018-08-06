@@ -1,4 +1,4 @@
-
+require "pry"
 def sort_array_asc(array)
    array.sort 
   
@@ -38,7 +38,7 @@ def kesha_maker(array)
   kesha_array = [ ]
   
   array.each do |element|
-    kesha_element
+    binding.pry
     kesha_array.push(element)
   
   
