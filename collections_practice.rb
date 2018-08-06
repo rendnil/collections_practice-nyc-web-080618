@@ -50,6 +50,12 @@ def find_a(array)
     end
   end    
 end  
+
+def sum_array(array)
   
+
+end
+  
+
 array = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
 puts find_a(array)
