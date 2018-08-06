@@ -51,6 +51,7 @@ def kesha_maker(array)
     kesha_array.push(kesha_element)
   end
 end  
+end
 
 array = ["hey", "whats", "up"]
 kesha_maker(array)
