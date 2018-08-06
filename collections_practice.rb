@@ -44,3 +44,4 @@ def kesha_maker(array)
 end  
 
 array = ["hey", "whats", "up"]
+kesha_maker(array)
