@@ -50,7 +50,8 @@ def kesha_maker(array)
     #binding.pry
     kesha_array.push(kesha_element.join())
   end
-end  
+end
+kesha_array
 end
 
 array = ["hey", "whats", "up"]
