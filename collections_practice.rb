@@ -48,7 +48,7 @@ def kesha_maker(array)
     end  
        
     #binding.pry
-    kesha_array.push(kesha_element)
+    kesha_array.push(kesha_element.join())
   end
 end  
 end
