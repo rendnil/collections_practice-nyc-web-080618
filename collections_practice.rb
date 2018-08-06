@@ -42,7 +42,7 @@ def kesha_maker(array)
    element.each do |letter|
      kesha_element = nil
      if element.index(letter)==2
-       kesha_element.push("$")
+       kesha_element.<<"$"
        
     #binding.pry
     kesha_array.push(element)
