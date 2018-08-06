@@ -55,7 +55,7 @@ end
 #    end  
 #    end
 #    #binding.pry
-    kesha_array.push(kesha_element.join())
+ #   kesha_array.push(kesha_element.join())
   
 #end
 #kesha_array
