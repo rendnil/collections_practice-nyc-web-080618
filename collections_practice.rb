@@ -38,7 +38,9 @@ def kesha_maker(array)
   kesha_array = [ ]
   
   array.each do |element|
-    binding.pry
+    element.each do |letter|
+      if element.index(letter)==2
+    #binding.pry
     kesha_array.push(element)
   end
 end  
