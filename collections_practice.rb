@@ -24,5 +24,6 @@ def swap_elements(array)
     else 
       new_array.push(element)
     end
+  end
   new_array  
 end  
