@@ -39,9 +39,9 @@ def kesha_maker(array)
   
   array.each do |element|
    
-   element.split.each do |letter|
+   element.split("").each do |letter|
      kesha_element = []
-     if element.split.index(letter)==2
+     if element.split("").index(letter)==2
        kesha_element.push("$")
     else
       kesha_element.push(letter)
