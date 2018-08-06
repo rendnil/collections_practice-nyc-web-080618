@@ -35,7 +35,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-#  kesha_array = [ ]
+
  
   array.each do |word|
     word[2] = "$"
@@ -74,5 +74,3 @@ def add_s(array)
 end  
   
 
-array = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
-puts find_a(array)
