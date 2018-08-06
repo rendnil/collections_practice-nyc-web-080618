@@ -52,8 +52,11 @@ def find_a(array)
 end  
 
 def sum_array(array)
-  
-
+  array_sum = nil
+  array.each do |number|
+    array_sum = array_sum + number
+  end  
+array_sun  
 end
   
 
