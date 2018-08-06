@@ -42,9 +42,9 @@ def kesha_maker(array)
    element.split.each do |letter|
      kesha_element = []
      if element.split.index(letter)==2
-       kesha_element <<"$"
+       kesha_element.push("$")
     else
-      kesha_element << letter
+      kesha_element.push(letter)
     end  
        
     #binding.pry
