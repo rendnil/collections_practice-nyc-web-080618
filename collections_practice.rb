@@ -11,5 +11,5 @@ end
 
 def sort_aray_char_count(array)
   array.sort_by {|word| word.length}
-end
+
 end
