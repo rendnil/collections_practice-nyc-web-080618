@@ -54,4 +54,4 @@ end
 end
 
 array = ["hey", "whats", "up"]
-kesha_maker(array)
+puts kesha_maker(array)
