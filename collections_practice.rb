@@ -35,24 +35,31 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  kesha_array = [ ]
+#  kesha_array = [ ]
+ 
+  array.each do |word|
+    word[2] = "$"
+  end
   
-  array.each do |element|
-   kesha_element = []
-   element.split("").each do |letter|
-     
-     if element.split("").index(letter)==2
-       kesha_element.push("$")
-    else
-      kesha_element.push(letter)
-    end  
-    end
-    #binding.pry
+  array
+end  
+  
+#  array.each do |element|
+#   kesha_element = []
+#   element.split("").each do |letter|
+#     
+#     if element.split("").index(letter)==2
+#       kesha_element.push("$")
+#    else
+#      kesha_element.push(letter)
+#    end  
+#    end
+#    #binding.pry
     kesha_array.push(kesha_element.join())
   
-end
-kesha_array
-end
+#end
+#kesha_array
+
 
 array = ["hey", "whats", "up"]
 print kesha_maker(array)
