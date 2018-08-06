@@ -40,7 +40,7 @@ def kesha_maker(array)
   array.each do |element|
    
    element.split.each do |letter|
-     kesha_element = nil
+     kesha_element = []
      if element.index(letter)==2
        kesha_element <<"$"
     else
