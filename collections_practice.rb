@@ -46,10 +46,10 @@ def kesha_maker(array)
     else
       kesha_element.push(letter)
     end  
-       
+    end
     #binding.pry
     kesha_array.push(kesha_element.join())
-  end
+  
 end
 kesha_array
 end
