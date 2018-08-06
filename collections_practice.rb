@@ -50,4 +50,5 @@ def find_a(array)
   end    
 end  
   
-array = 
+array = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
+puts find_a(array)
