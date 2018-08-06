@@ -17,6 +17,12 @@ end
 def swap_elements(array)
   new_array = [ ]
   array.each do |element|
-    
-
+    if array.index(element) == 1
+      new_array[2] = array[1]
+    elsif array.index(element) ==2
+      new_array[1] = array[2]
+    else 
+      new_array.push(element)
+    end
+  new_array  
 end  
