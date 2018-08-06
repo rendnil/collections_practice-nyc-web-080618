@@ -42,10 +42,13 @@ def kesha_maker(array)
    element.each do |letter|
      kesha_element = nil
      if element.index(letter)==2
-       kesha_element.<<"$"
+       kesha_element <<"$"
+    else
+      kesha_element << letter
+    end  
        
     #binding.pry
-    kesha_array.push(element)
+    kesha_array.push(kesha_element)
   end
 end  
 
